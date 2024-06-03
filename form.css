@@ -1,0 +1,83 @@
+body {
+    background-image: url('123.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+  }
+  form {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    width: 400px;
+    margin: auto;
+  }
+  fieldset {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #fdfffe;
+    color: rgb(0, 0, 0);
+    border: 2px solid #fdfffe;
+    border-radius: 4px;
+    display: block; /* Add this line */
+    resize: none
+}
+  input[type=text], input[type=date], input[type=time], input[type=number],input[type=tel], select {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #fdfffe;
+    color: rgb(0, 0, 0);
+  }
+  
+  input[type=submit] {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #ffffff;
+  }
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navigation bar links */
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+  }
+  
+  /* On hover, the links will change color */
+  .navbar a:hover {
+     background-color: #fdfffe; 
+     color: black; 
+  }
+  
+  /* The first link (Home) is styled differently */
+  .navbar a.active {
+     background-color: #ffffff; 
+     color: rgb(0, 0, 0); 
+  }
+  
+  /* Style the right part of the menu (About) differently */
+  .navbar-right {
+   float:right; 
+  }
+  h2{
+    color: #fdfffe;
+  }
+  

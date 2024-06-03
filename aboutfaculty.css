@@ -1,0 +1,88 @@
+body {
+    background: url('123.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+  }
+  h1{
+   color: #ffffff;
+  }
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navigation bar links */
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+  }
+  
+  /* On hover, the links will change color */
+  .navbar a:hover {
+     background-color: #fbfbfb; 
+     color: rgb(0, 0, 0); 
+  }
+  
+  /* The first link (Home) is styled differently */
+  .navbar a.active {
+     background-color: #ffffff; 
+     color: rgb(6, 6, 6); 
+  }
+  
+  /* Style the right part of the menu (About) differently */
+  .navbar-right {
+   float:right; 
+  }
+  .faculty {
+   border-radius: 5%;
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.faculty::before {
+ border-radius: 5%;
+    content: "";
+    background: url('123.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(8px);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+
+.faculty-info, .faculty-description {
+    width: 45%;
+    position: relative;
+    color: #ffffff;
+}
+
+.faculty img {
+   border-radius: 50%;
+   max-width: 200px;
+   height: auto;
+}
+
+.faculty h2 {
+   margin-top: 0;
+}
+p{
+   color: #ffffff;
+}

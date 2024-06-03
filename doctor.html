@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+    <div class="navbar">
+      <a href="homepage.html">Home</a>
+      <a href="patient1.php"class="active" >Patient</a>
+      <a href="bill.html">Bill</a>
+      <a href="doctor.html">Doctor</a>
+      <a href="nurse.html">Nurse</a>
+      <a href="diagnosis.html">Diagnosis</a>
+      <a href="reception.html">Reception</a>
+      <a href="accountant.html">Accountant</a>
+
+        <div class="navbar-right">
+          <a href="aboutfaculty.html">About Faculty</a>
+        </div>
+      </div>
+<h2>Doctor Form</h2>
+
+<form method="post" action= "doctor.php">
+
+  <label for="Doctor_id">Doctor Id:</label>
+  <input type="text" id="Doctor_id" name="Doctor_id" required>
+
+  <label for="Designation">Designation:</label>
+  <input type="text" id="Designation" name="Designation" required>
+
+  <label for="D_name">Doctor Name:</label>
+  <input type="text" id="D_name" name="D_name" required>
+  
+  <label for="D_Gender">Gender:</label>
+  <select name="D_Gender" id="D_Gender">
+
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+  </select>
+
+  <input type= "submit" value= "submit" name= "Submit">
+</form>
+
+</body>
+</html>

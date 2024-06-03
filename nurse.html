@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="form.css">
+    </head>
+<body>
+    <div class="navbar">
+      <a href="homepage.html">Home</a>
+      <a href="patient1.php">Patient</a>
+        <a href="bill.html">Bill</a>
+        <a href="doctor1.php">Doctor</a>
+        <a href="nurse.html"class="active" >Nurse</a>
+        <a href="diagnosis.html">Diagnosis</a>
+        <a href="reception.html">Reception</a>
+        <a href="accountant1.php">Accountant</a>
+
+        <div class="navbar-right">
+          <a href="aboutfaculty.html">About Faculty</a>
+        </div>
+      </div>
+<h2>Nurse Information Form</h2>
+
+<form method="post" action= "nurse.php">
+
+  <label for="nurse_id">Nurse ID:</label><br>
+  <input type="text" id="nurse_id" name="nurse_id" ><br>
+
+  <label for="Doctor_id">Doctor Assigned ID:</label>
+  <input type="text" id="Doctor_id" name="Doctor_id" required>
+
+  <label for="n_name">Name:</label><br>
+  <input type="text" id="n_name" name="n_name"><br>
+
+  <label for="n_gender">Gender:</label><br>
+  <select name="n_gender" id="n_gender">
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+  </select>
+
+  <input type= "submit" value= "submit" name= "submit">
+</form> 
+
+</body>
+</html>
